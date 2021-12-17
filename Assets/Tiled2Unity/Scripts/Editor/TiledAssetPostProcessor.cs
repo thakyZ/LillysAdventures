@@ -129,7 +129,7 @@ namespace Tiled2Unity
 
             // We will create and assign our own materials.
             // This gives us more control over their construction.
-            modelImporter.importMaterials = false;
+            modelImporter.materialImportMode = ModelImporterMaterialImportMode.None;
         }
 
         private void OnPostprocessModel(GameObject gameObject)
@@ -195,7 +195,7 @@ namespace Tiled2Unity
             this.assetImporter.userData = "tiled2unity";
 
             TextureImporter textureImporter = this.assetImporter as TextureImporter;
-            textureImporter.textureType = TextureImporterType.Advanced;
+            textureImporter.textureType = TextureImporterType.Default;
             textureImporter.npotScale = TextureImporterNPOTScale.None;
             textureImporter.convertToNormalmap = false;
             textureImporter.lightmap = false;

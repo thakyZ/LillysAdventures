@@ -298,8 +298,8 @@ namespace VoidInc.LWA
 
 			if (climbing != 0)
 			{
-				EdgeCollider2D ladderGrabEdgeSpine = transform.FindChild("LadderGrabTest").GetComponent<TriggerTest>().GetTriggerCollider<EdgeCollider2D>();
-				EdgeCollider2D ladderDownEdgeSpine = transform.FindChild("LadderDownTest").GetComponent<TriggerTest>().GetTriggerCollider<EdgeCollider2D>();
+				EdgeCollider2D ladderGrabEdgeSpine = transform.Find("LadderGrabTest").GetComponent<TriggerTest>().GetTriggerCollider<EdgeCollider2D>();
+				EdgeCollider2D ladderDownEdgeSpine = transform.Find("LadderDownTest").GetComponent<TriggerTest>().GetTriggerCollider<EdgeCollider2D>();
 
 				if (climbing > 0)
 				{

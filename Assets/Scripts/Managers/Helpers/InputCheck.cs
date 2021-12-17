@@ -13,13 +13,9 @@ namespace VoidInc.LWA
 			RuntimePlatform.OSXEditor,
 			RuntimePlatform.OSXPlayer,
 			RuntimePlatform.WindowsPlayer,
-			RuntimePlatform.OSXWebPlayer,
-			RuntimePlatform.OSXDashboardPlayer,
-			RuntimePlatform.WindowsWebPlayer,
 			RuntimePlatform.WindowsEditor,
 			RuntimePlatform.LinuxPlayer,
-			RuntimePlatform.WebGLPlayer,
-			RuntimePlatform.TizenPlayer
+			RuntimePlatform.WebGLPlayer
 		};
 		/// <summary>
 		/// The list of mobile platforms.
@@ -28,8 +24,7 @@ namespace VoidInc.LWA
 		{
 			RuntimePlatform.IPhonePlayer,
 			RuntimePlatform.Android,
-			RuntimePlatform.WP8Player,
-            RuntimePlatform.WSAPlayerX86,
+      RuntimePlatform.WSAPlayerX86,
 			RuntimePlatform.WSAPlayerX64,
 			RuntimePlatform.WSAPlayerARM
 		};
@@ -46,12 +41,7 @@ namespace VoidInc.LWA
 		/// </summary>
 		public static RuntimePlatform[] ConsolePlatforms =
 		{
-			RuntimePlatform.PS3,
 			RuntimePlatform.PS4,
-			RuntimePlatform.PSM,
-			RuntimePlatform.PSP2,
-			RuntimePlatform.WiiU,
-			RuntimePlatform.XBOX360,
 			RuntimePlatform.XboxOne
 		};
 		/// <summary>
